@@ -54,7 +54,6 @@ fun part2(input: List<String>): Long {
 
 fun main() {
     val testInput = readInput("day02")[0].split(",");
-    // 7243 too high
     val result1 = part2(testInput)
     println("Result1: ${result1}")
 
