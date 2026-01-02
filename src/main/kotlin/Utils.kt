@@ -6,7 +6,7 @@ import kotlin.io.path.readLines
 /**
  * Reads lines from the given input txt file.
  */
-fun readInput(name: String) = Path("input/$name.txt").readLines()
+fun readInput(name: String): List<String> = Path("input/$name.txt").readLines()
 
 /**
  * The cleaner shorthand for printing output.
